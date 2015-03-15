@@ -2,13 +2,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 copyright">
-                        <span>&copy;2014.Design_mylife. All right reserved</span>
+                        <p>&copy; Copyright 2015. By <span id="copyright">Owen Xu</span>. All rights reserved.</p>
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blog-list.html">Latest news</a></li>
-                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
                         </ul>
                     </div>
                 </div>

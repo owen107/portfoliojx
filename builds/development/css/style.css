@@ -86,7 +86,7 @@ a:focus {
     background-size: auto;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-image: url(../img/slide-bg.jpg);
+    background-image: url(../img/macbook.jpg);
     display: table;
     width: 100%;
     height: 100%;
@@ -114,8 +114,9 @@ a:focus {
     z-index: 3;
 }
 h1.slide-logo{
-    color:#fff;
+    color: #47ABED;
     margin-top:0;
+    font-weight: bold !important;
     margin-bottom: 40px;
     font-weight: 300;
     text-transform: uppercase;
@@ -125,7 +126,7 @@ h2.slide-btm-text{
     text-align: center;
     margin: 30px 0;
     font-weight: 300;
-    color:#fff;
+    color: #fff;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -150,9 +151,6 @@ h2.slide-btm-text{
 }
 
 
-
-
-
 /*********************
 bootstrap navbar overrides
 *************************/
@@ -167,29 +165,39 @@ bootstrap navbar overrides
     z-index: 4;
     background-color: #fff;
     opacity: .95;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
-    box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 5px rgba(71, 171, 237, 0.3);
+    -moz-box-shadow:0 1px 5px rgba(71, 171, 237, 0.3);
+    box-shadow:0 1px 5px rgba(71, 171, 237, 0.3);
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .1em;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Dosis', sans-serif;
+    margin: 0 10px;
+    text-align: center;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #35bdf6 !important;
+    color: #47ABED !important;
     background-color: transparent;
+    border-radius: 5px;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #35bdf6 !important;
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #47ABED !important;
     background-color: transparent;
+    border: 2px solid #47ABED;
+    border-radius: 5px;
+    padding: 13px 20px;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    color: #35bdf6 !important;
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #47ABED !important;
     background-color: transparent;
 }
 .navbar-default .navbar-brand{
@@ -201,40 +209,75 @@ bootstrap navbar overrides
     font-family: 'Dosis', sans-serif !important;
 }
 .navbar-brand:hover{
-    color:#000 !important;
+    color: #000 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #47abed;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #47abed;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #47abed;
+}
+
+#logo {
+    max-width: 60px;
+    min-width: 35px;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: 30px;
+    border: 2px solid #47abed;
+    border-radius: 50%
+}
+
+#logo:hover {
+    -webkit-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 /***************buttons*****************************/
 .btn {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     text-shadow: none !important;
-    -webkit-text-shadow:none !important;
+    -webkit-text-shadow: none !important;
     text-transform: uppercase;
     -webkit-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
     transition: all 200ms ease-in;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
     display: inline-block;
     letter-spacing: 1px;
+    padding: 15px;
+    border: 2px solid #47ABED;
+    color: #47ABED;
 }
-.btn:hover,.btn:focus{
+.btn:hover,.btn:focus {
     outline: 0;
-    color:#fff;
+    /*color: #fff;*/
 }
-.btn-theme-color{
-    background-color: #35bdf6;
-    color:#fff;
-}
-.btn-theme-color:hover,.btn-theme-color:focus{
-    color:#fff !important;
-    background-color: #077aaa !important;
 
+.btn:hover,
+.btn:focus,
+.btn-theme-color {
+    background-color: #47ABED;
+    color: #fff !important;
 }
 
 
@@ -251,7 +294,8 @@ bootstrap navbar overrides
     opacity: 1;
 }
 .section-heading .section-title{
-    color:#000;
+    color: #47ABED;
+    font-weight: bold !important;
     text-transform: uppercase;
 }
 .section-heading .small span{
@@ -319,7 +363,7 @@ social icons css here
     background-color: #077aaa;
 }
 .social-colored li a i.icon-twit{
-    background-color: #35bdf6;
+    background-color: #47ABED;
 }
 .social-colored li a i.icon-plus{
     background-color: #c7254e;
@@ -364,8 +408,9 @@ About section
 }
 .about-more-info p:first-letter{
     color:#35bdf6;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 2px;
 }
 .skills-wrapper{
     margin-bottom: 30px;
@@ -382,12 +427,12 @@ h3.heading-progress {
     line-height: 10px;
     box-shadow: none;
     -webkit-box-shadow: none;
-    background: #E9E9E9;
-    border-radius: 0;
+    background: #ddd;
+    border-radius: 5px;
 }
 .progress-bar {
     line-height: 10px;
-    background:#35bdf6;
+    background:#47ABED;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -411,165 +456,12 @@ h3.heading-progress {
 .purchase-now .btn-theme-color{
     float: right;
 }
-/**********************************
-
-  services section css here
-
-***********************************/
-
-.services-section-1{
-    margin-bottom: 30px;
-}
-.services-icon i{
-    color:#333;
-    font-size: 24px;
-    width:60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background-color: #f6f6f6;
-    border-radius: 32px;
-    -webkit-border-radius: 32px;
-    -webkit-transition: all 200ms ease-in;
-    -o-transition: all 200ms ease-in;
-    -moz-transition: all 200ms ease-in;
-    transition: all 200ms ease-in;
-}
-.services-icon i:hover{
-    background-color: #333;
-    color:#f6f6f6;
-}
-.services-info h3{
-    margin-top: 0;
-    font-weight: 600;
-    font-size: 20px;
-}
-.services-right img{
-    margin-bottom: 50px;
-}
 
 
-.services-section-2{
-    padding: 90px 0;
+#email {
+    color: #47ABED;
+    font-weight: bold;
 }
-.services-section-2 h1{
-    margin-top: 0;
-    margin-bottom: 30px;
-    color:#FFF;
-    font-weight: 300;
-}
-.services-section-2 .newsletter-form input{
-    border:none;
-}
-.services-section-2 .newsletter-form input:focus{
-    border:none;
-}
-
-
-
-
-
-/**************************
-  sideabr
-  ************************/
-.sidebar-box{
-    margin-bottom: 30px;
-    padding: 10px 20px;
-    border: 1px solid #eeeeee;
-}
-.sidebar-box h4{
-    color:#000;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-.widget-search .search-form{
-    position: relative;
-}
-.widget-search .search-form input{
-    margin-bottom: 0px;
-}
-.widget-search .search-form i{
-    position: absolute;
-    top: 3px;
-    right:10px;
-    line-height: 38px;
-    text-align: center;
-    color: #999;
-}
-.popu-post-item{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eeeeee;
-    margin-bottom: 10px;
-
-}
-.popu-post-item h5{
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-.popu-post-item h5 a{
-    color:#35bdf6;
-}
-.popu-post-item span{
-    display: block;
-    padding-bottom: 5px;
-    font-size: 13px;
-    border-bottom: 1px solid #f7f7f7;
-}
-.popu-post-item span a{
-    color:#35bdf6;
-}
-
-.cat-list{
-    padding: 0;
-    margin: 0;
-
-}
-.cat-list li{
-    padding: 8px 0;
-    border-bottom: 1px solid #eeeeee;
-}
-.cat-list li:last-child{
-    border-bottom: none;
-}
-.cat-list li a{
-    display: block;
-    font-weight: 400;
-    color:#000;
-}
-
-
-/***************************************
-bootstrap overrides badge and pagination
-****************************************/
-.badge{
-    background-color: #35bdf6;
-    font-weight: 400;
-}
-.pagination{
-    margin-top: 0px;
-}
-.pagination>li>a, .pagination>li>span {
-    position: relative;
-    float: left;
-    padding: 10px 16px;
-    line-height: 1.42857143;
-    text-decoration: none;
-    color: #fff;
-    background-color: #35bdf6;
-    border: 1px solid #077aaa;
-    margin-left: -1px;
-}
-.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-    color: #fff !important;
-    background-color: #077aaa;
-    border-color: #077aaa;
-}
-
-
 
 /*********************************
           our work section
@@ -591,24 +483,25 @@ bootstrap overrides badge and pagination
 }
 .portfolio-filters li{
     display:inline-block;
-    border:1px solid #eeeeee;
+    border: 2px solid #47ABED;
     padding: 10px 16px;
     cursor: pointer;
-    font-size: 10px ;
+    font-size: 12px ;
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: 700;
-    color:#999;
+    color:#47ABED;
+    border-radius: 5px;
 }
 .portfolio-filters li:hover{
-    background-color: #35bdf6;
+    background-color: #47ABED;
     color:#fff;
-    border-color:#35bdf6;
+    border-color:#47ABED;
 }
 .portfolio-filters li.active{
-    background-color: #35bdf6;
+    background-color: #47ABED;
     color:#fff;
-    border-color:#35bdf6;
+    border-color:#47ABED;
 }
 
 
@@ -625,7 +518,7 @@ bootstrap overrides badge and pagination
 .image-overlay{
     position: absolute;
     text-align: center;
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(71, 171, 237, 0.8);
     top: 0;
     bottom: 0;
     left: 0;
@@ -639,10 +532,16 @@ bootstrap overrides badge and pagination
 
 .image-overlay p {
     position: absolute;
-    top: 50%;
-    color: #35bdf6;
-    margin-top: -10px;
-    width: 100%;
+    top: 45%;
+    left: 45%;
+    color: #47ABED;
+    margin: -38px 0 0 -38px;
+    width: 100px;
+    height: 100px;
+    padding-top: 36px; 
+    background: #fff;
+    border-radius: 50%;
+    font-weight: bold;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -656,17 +555,26 @@ bootstrap overrides badge and pagination
     padding: 15px 10px;
     border:1px solid #E9E9E9;
     border-top: none;
-}
-
-.work-sesc p{
-    line-height: 10px;
-    margin: 0px;
-    text-transform: uppercase;
     text-align: center;
 }
 
+.work-sesc p { 
+    line-height: 10px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    color: rgba(71, 171, 237, 1); 
+    font-weight: 500;   
+}
 
+.work-sesc strong {
+    font-weight: bolder;
+    color: #3A8BC0;
+}
 
+.work-sesc span {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
 
 /*****************team*******************/
 .work-section-2{
@@ -712,20 +620,16 @@ bootstrap overrides badge and pagination
     border-top-color:#35bdf6;
 }
 
-
-
-
-
 /***footer*/
 #footer{
-    padding: 50px 0;
-    background-image: url('../img/pattern.png');
-    background-repeat: repeat;
-    background-color: rgba(0,0,0,.85);
+    padding: 30px 0;
+    background-color: rgba(0,0,0,0.8);
 
 }
-#footer .copyright span{
+#footer .copyright p {
     color:#fff;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 .footer-nav ul{
     float:right;
@@ -736,7 +640,44 @@ bootstrap overrides badge and pagination
     color:#fff;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+#copyright {
+    color: #47ABED;
+    font-weight: 700;
+}
+
+/* portfolio header
+---------------------------------*/
+.portfolio_header {
+    padding-top: 8rem;
+    background: rgba(71, 171, 237, 0.7);
+}
+
+.portfolio_header .port h1 {
+    font-size: 4.5rem;
+    letter-spacing: 7px;
+    margin-top: 1rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #2D6C95;
+} 
+
+.portfolio_header .port p {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: bold;
+} 
+
+.portfolio_header img {
+    margin-left: 120px;
+    width: 280px;
 }
 
 /****************responsive css 768px*********************/
@@ -785,6 +726,22 @@ bootstrap overrides badge and pagination
     }
 
 }
+
+@media (max-width: 992px){
+    .portfolio_header img {
+        display: none;
+    }
+
+    .portfolio_header {
+        padding-top: 2rem;
+    }
+
+    .portfolio_header .port p {
+        margin-bottom: 20px;
+    }
+
+}
+
 @media(max-width:360px){
 
     .home-overlay .main-flex-slider h1{
@@ -854,7 +811,7 @@ label span{
 /*******************easy pie chart*****************/
 /*******************************easy pie charts skills***************************/
 .easy-pie-chart-row{
-    padding: 60px 0;
+    padding: 0;
 }
 .easy-pie-chart{
       position: relative;

@@ -4,6 +4,7 @@
         <title><?php echo $pageTitle; ?></title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bootstrap css-->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +23,7 @@
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
         <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
         <!--ion icons css-->
-        <link href="icons/css/ionicons.min.css" rel="stylesheet">
+        <!-- <link href="icons/css/ionicons.min.css" rel="stylesheet"> -->
         <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>

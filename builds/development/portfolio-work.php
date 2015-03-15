@@ -8,11 +8,25 @@
 
         <?php include('inc/nav.php'); ?> 
 
-        <section id="page-head-bg">
+        <!-- <section id="page-head-bg">
             <div class="container">
                 <h1>Portfolio single</h1>
             </div>
-        </section><!--page-head bg end-->
+        </section>-->
+
+       <section class="portfolio_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                      <div class="port delay-01s animated fadeInDown wow animated">
+                        <h1>D&J Ecommerce Website</h1>
+                        <p>A fully functional Ecommerce Website</p> 
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12"><img src="img/macbook-pro.png" class="delay-03s animated wow tada" alt="Photo of Flat MacBook"></div>
+                </div>
+            </div> 
+        </section>
         
         <section id="work-single" class="padding-80">
              <div class="container">

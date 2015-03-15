@@ -8,7 +8,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">codeon</a>
+                <a class="navbar-brand" href="index.php">
+                    <img id="logo" src="img/plogo2.png" alt="Logo of Portfolio">
+                </a>
             </div>
             <div class="navbar-collapse collapse">
 
