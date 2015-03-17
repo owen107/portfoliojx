@@ -17,8 +17,8 @@ body {
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #121212;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
     -webkit-font-smoothing: antialiased;
 }
 /*typography bootstrap overrides*/
@@ -63,7 +63,7 @@ a:active,
 a:hover,
 a:focus {
     outline: 0; 
-    color: #35bdf6 !important;
+    /*color: #35bdf6 !important;*/
     text-decoration: none;	  
 }
 .padding-80{
@@ -268,9 +268,14 @@ bootstrap navbar overrides
     border: 2px solid #47ABED;
     color: #47ABED;
 }
+
+.btn-small {
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
 .btn:hover,.btn:focus {
     outline: 0;
-    /*color: #fff;*/
 }
 
 .btn:hover,
@@ -280,9 +285,15 @@ bootstrap navbar overrides
     color: #fff !important;
 }
 
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*************
 **headings****/
+
 .section-heading{
     margin-bottom: 40px;
 }
@@ -508,9 +519,15 @@ h3.heading-progress {
 
 /***image hover****/
 
-.image-wrapper{
+.image-wrapper {
     position: relative;
 }
+
+.image-wrapper:first-child,
+.image-wrapper:nth-child(5) {
+    border: 1px solid #E9E9E9;
+}
+
 .image-wrapper img{
     width:100%;
     height: auto;
@@ -679,6 +696,161 @@ h3.heading-progress {
     margin-left: 120px;
     width: 280px;
 }
+
+.portfolio-nav .nav-btn {
+    text-align: right;
+}
+
+.portfolio-nav .button {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    line-height: 34px;
+    max-width: 40px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.portfolio-nav .button:hover {
+    border-color: #47ABED;
+    color: #47ABED;
+}
+
+.portfolio-nav .button,
+.back {
+    color: #B7C6C9;
+    font-size: 18px;
+    border: 3px solid #DDE4E6;
+}
+
+.back {
+    border-radius: 30px;
+}
+
+.back:hover {
+    border-color: #47ABED;
+    background: #fff;
+    color: #47ABED !important;
+}
+
+#project-desc {
+    margin-bottom: 55px;
+}
+
+#project-section {
+    margin-bottom: 55px;
+}
+
+#project-content {
+    margin-bottom: 60px;
+}
+
+#project-full {
+    margin-bottom: 50px;
+}
+
+#project-full .wrapper {
+    width: 99%;
+    margin: 0 auto;
+}
+
+#project-desc h3,
+#project-section h3,
+#project-content h3,
+#project-full h3 {
+    margin-top: 0;
+    color: #47ABED;
+    text-transform: uppercase;
+}
+
+#project-section .portfolio-img {
+    margin-bottom: 15px;
+}
+
+#project-full h3 {
+    margin-bottom: 20px;
+}
+
+#project-full p {
+    margin-top: 15px;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+/**** Tags *****/
+.tag {
+    margin: 0 0 1em 0;
+    padding: 5px;
+    list-style: none;
+}
+
+.tag li {
+    display: inline-block;
+}
+
+
+.tag a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tag a {
+    display: inline-block;
+    line-height: 30px;
+    font-size: 90%;
+    position: relative;
+    margin: 0 20px 8px 6px;
+    padding: 0 13px 0 15px;
+    background: #47ABED;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0 2px 2px 0;
+    font-weight: bold;
+}
+
+.tag a:before {
+    content: "";
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: -11px;
+    width: 0;
+    height: 0;
+    border-right-color: #47ABED;
+    border-style: solid;
+    border-width: 15px 11px 15px 0;
+}
+
+.tag a:after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 0;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#demo {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#demo .btn {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.padding-40 {
+    padding: 40px 0;
+}
+
+
 
 /****************responsive css 768px*********************/
 

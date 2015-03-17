@@ -6,9 +6,9 @@
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+                            <li><a href="http://www.facebook.com/xu.owen.35"><i class="fa fa-facebook-square"></i></a></li>
+                            <li><a href="http://twitter.com/owenx66"><i class="fa fa-twitter-square"></i></a></li>
+                            <li><a href="http://github.com/owen107/"><i class="fa fa-github-square"></i></a></li>
                         </ul>
                     </div>
                 </div>

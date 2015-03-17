@@ -23,7 +23,7 @@
                             </li>
                         </ul>
                     </div> 
-                    <h2 class="slide-btm-text">Do you wanna to know more about my interest and works?</h2>
+                    <h2 class="slide-btm-text">Want to know more about my interests and works?</h2>
                     <div class="home-arrow-down text-center">
                         <p class="scrollto"><a href="#about" class="btn btn-lg">let's Get Started </a></p>
                     </div>
@@ -53,9 +53,9 @@
 
                                         I am a huge fan of sports. In my spare time, I love running, playing soccer and Pingpong with my friends. </br></br>
 
-                                        When I am not out for sports, I usually spend most of time on the Internet and honing my web design and development skills by doing some real world projects. As a front-end web developer, I have a strong passion for working with HTML, CSS and Javascript so as to create clean and elegant user interfaces. Also, I love building stuff, particularly website and web application and oftetime excited to learn any new cutting edge web technologies. Beyond that, I enjoy utilizing back-end web development technologies, such as PHP and Python as well, which enable me to build an rich and robust web applications from the front-end to the back-end. </br></br>
+                                        When I am not out for sports, I usually spend most of time on the Internet and honing my web design and development skills by doing some real world projects. As a front-end web developer, I have a strong passion for working with HTML, CSS and Javascript so as to create clean and elegant user interfaces. Also, I love building stuff, particularly website and web application and oftetimes excited to learn any new cutting edge web technologies. Beyond that, I enjoy utilizing back-end web development technologies, such as PHP and Python as well, which enable me to build rich and robust web applications from the front-end to the back-end. </br></br>
 
-                                        <a id="email" href="mailto:owenxu107@gmail.com">Drop me a line</a> if you would like to say hello.
+                                        Feel free to <a id="email" href="mailto:owenxu107@gmail.com">drop me a line</a> if you would like to say hello.
                                     </p>
                                 </div>
                             </div>
@@ -160,9 +160,9 @@
 
                             <div id="grid" class="row">
                                 <div class="mix col-md-4 col-sm-6 php margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="ecommerce.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img1.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/ec.jpg" class="img-responsive" alt="D&J Ecoommerce">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
@@ -174,23 +174,23 @@
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 mobile margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="weatherapp.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img2.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/weather.jpg" class="img-responsive" alt="Lovely Weather">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
                                         </div><!--.image-wrapper-->                                      
                                     </a>
                                     <div class="work-sesc">
-                                        <p><strong>Weather Forecast</strong> - Mobile Web App</p>
+                                        <p><strong>Lovely Weather</strong> - Mobile Web App</p>
                                         <span>Front-End Developer</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 wordpress web margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="aasingle.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img3.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/aa.jpg" class="img-responsive" alt="AA Single Page">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
@@ -202,9 +202,9 @@
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 web margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="todoapp.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img4.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/todo.jpg" class="img-responsive" alt="Simple Todo App">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
@@ -216,9 +216,9 @@
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 web margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="weilabuy.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img5.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/wb.jpg" class="img-responsive" alt="Weila Buy">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
@@ -230,9 +230,9 @@
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 html design margin-btm-20">
-                                    <a href="portfolio-work.php">
+                                    <a href="pinboard.php">
                                         <div class="image-wrapper">
-                                            <img src="img/sec-img6.jpg" class="img-responsive" alt="work-1">
+                                            <img src="img/portfolio/pinb.jpg" class="img-responsive" alt="Pin Board">
                                             <div class="image-overlay">
                                                 <p>View Detail</p>
                                             </div><!--.image-overlay-->
