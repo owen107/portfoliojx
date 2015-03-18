@@ -49,9 +49,9 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="about-more-info wow animated fadeInUp" data-wow-delay="0.3s">
                                     <p>
-                                        Hello, my name is Owen Xu, I'm a Front-End Web Developer currently living in Ann Arbor, Michigan. And I am a master student at the University of Michigan where I studies Information Analysis and Retrieval.</br></br>
+                                        Hello, my name is Owen Xu, I'm a Front-End Web Developer currently living in Ann Arbor, Michigan. Also, I am a master student at the University of Michigan where I studies Information Analysis and Retrieval.</br></br>
 
-                                        I am a huge fan of sports. In my spare time, I love running, playing soccer and Pingpong with my friends. </br></br>
+                                        Speaking of my passions, I am a huge fan of sports. In my spare time, I love running, playing soccer and pingpong with my friends. </br></br>
 
                                         When I am not out for sports, I usually spend most of time on the Internet and honing my web design and development skills by doing some real world projects. As a front-end web developer, I have a strong passion for working with HTML, CSS and Javascript so as to create clean and elegant user interfaces. Also, I love building stuff, particularly website and web application and oftetimes excited to learn any new cutting edge web technologies. Beyond that, I enjoy utilizing back-end web development technologies, such as PHP and Python as well, which enable me to build rich and robust web applications from the front-end to the back-end. </br></br>
 
@@ -66,7 +66,7 @@
                                         <div class="progress-bar" style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar">
                                         </div>
                                     </div> 
-                                    <h3 class="heading-progress">Web Design <span class="pull-right">75%</span></h3>
+                                    <h3 class="heading-progress">Web Design <span class="pull-right">70%</span></h3>
                                     <div class="progress">
                                         <div class="progress-bar" style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar">
                                         </div>
@@ -170,7 +170,7 @@
                                     </a>
                                     <div class="work-sesc">
                                         <p><strong>D&J Ecommerce</strong> - Web App</p>
-                                        <span>Web Developer</span>
+                                        <span>Web Development</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 mobile margin-btm-20">
@@ -184,7 +184,7 @@
                                     </a>
                                     <div class="work-sesc">
                                         <p><strong>Lovely Weather</strong> - Mobile Web App</p>
-                                        <span>Front-End Developer</span>
+                                        <span>Front-End Development</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 wordpress web margin-btm-20">
@@ -198,7 +198,7 @@
                                     </a>
                                     <div class="work-sesc">
                                         <p><strong>AA Signle Page</strong> - Web App</p>
-                                        <span>Front-End Developer</span>
+                                        <span>Front-End Development</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 web margin-btm-20">
@@ -211,8 +211,8 @@
                                         </div><!--.image-wrapper-->                                      
                                     </a>
                                     <div class="work-sesc">
-                                        <p><strong>Todo App</strong> - Web App</p>
-                                        <span>Front-End Developer</span>
+                                        <p><strong>Just TODO It</strong> - Web App</p>
+                                        <span>Front-End Development</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 web margin-btm-20">
@@ -226,7 +226,7 @@
                                     </a>
                                     <div class="work-sesc">
                                         <p><strong>Weila Buy</strong> - Web App</p>
-                                        <span>Front-End Developer</span>
+                                        <span>Front-End Development</span>
                                     </div><!--.work-desc-->
                                 </div><!--work item-->
                                 <div class="mix col-md-4 col-sm-6 html design margin-btm-20">

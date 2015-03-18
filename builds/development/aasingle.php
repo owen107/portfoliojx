@@ -13,8 +13,8 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                       <div class="port delay-01s animated fadeInDown wow animated">
-                        <h1>A2 Single Page Web App</h1>
-                        <p>A Single Page Website For Introducing Ann Arbor</p> 
+                        <h1>AA Intro Web App</h1>
+                        <p>A Responsive Single Page Design For Introducing Ann Arbor</p> 
                       </div>  
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12"><img src="img/macbook-pro.png" class="delay-03s animated wow tada" alt="Photo of Flat MacBook"></div>
@@ -38,9 +38,14 @@
                 <div class="row" id="project-content">
 
                     <div class="col-md-4">
-                         <h3>Project Description</h3>
+                         <h3>Project Overview</h3>
+                         <ul class="overview">
+                            <li><i class="fa fa-calendar"></i> September 2014</li>
+                            <li><i class="fa fa-user"></i> Individual Project</li>
+                            <li><i class="fa fa-desktop"></i> Front End Development</li>
+                         </ul>
                          <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                             The AA Single Page Website is a course project that I created for introduing the city of Ann Arbor, Michigan. Specifically, The single page web app is consisted of five distinct sections, which is attempting to introduce Ann Arbor from different perspectives, including attractions, dining, annual events and fall scenary. In this particular project, I applied Sass, one of the most popular CSS prepocessor, to generate and maintain the stylesheet, which provided me great flexibility to adjust and style the layout of the whole website.
                          </p>
                     </div>
 
@@ -56,7 +61,7 @@
                     
                     <div class="col-md-12">
 
-                         <h3>Project Description</h3>                       
+                         <h3>Web App Details</h3>                       
                          <div class="portfolio-img">
                             <img src="img/aasingle/aa-macbook-pro.jpg" class="img-responsive">
                          </div>
@@ -66,7 +71,7 @@
                     <div class="wrapper">
                         <div class="col-md-8">  
                           <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                             In this single page design, my initial goal was to introdue Ann Abror via appealing visual effects, thus each section in this web application contained attractive high resolution pictures. The primary feature of this web app is animating the scrolling effects that respond to user direction by using ScrollMagic and TweenMax plugins. In addition to that, the Front-End of the website is built within Susy2 framework along with breakpoint, which will be fully responsive on multiple viewports and devices, enhancing the user experience. 
                           </p>
                         </div>
 
@@ -75,11 +80,11 @@
                                 <h3 class="hidden-md hidden-lg">Tools</h3>
                                 <ul class="tag">
                                     <li><a>HTML</a></li>
-                                    <li><a>Balsamiq</a></li>
-                                    <li><a>Photoshop</a></li>
-                                    <li><a>Sass</a></li>
                                     <li><a>CSS</a></li>
-                                    <li><a>JavaScript (jQuery)</a></li> 
+                                    <li><a>Sass (Compass)</a></li>                                    
+                                    <li><a>jQuery Plugins</a></li>                                   
+                                    <li><a>JavaScript</a></li>
+                                    <li><a>Responsive Web Design</a></li><li><a>Photoshop</a></li>
                                 </ul>
                             </div>
 

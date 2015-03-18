@@ -14,7 +14,7 @@
                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                       <div class="port delay-01s animated fadeInDown wow animated">
                         <h1>Weila Buy</h1>
-                        <p>A Products Intro Web Applicatoin with AngularJS</p> 
+                        <p>A Real-time Products Info Web App with AngularJS</p> 
                       </div>  
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12"><img src="img/macbook-pro.png" class="delay-03s animated wow tada" alt="Photo of Flat MacBook"></div>
@@ -38,9 +38,14 @@
                 <div class="row" id="project-content">
 
                     <div class="col-md-4">
-                         <h3>Project Description</h3>
+                         <h3>Project Overview</h3>
+                         <ul class="overview">
+                            <li><i class="fa fa-calendar"></i> February 2015</li>
+                            <li><i class="fa fa-user"></i> Individual Project</li>
+                            <li><i class="fa fa-desktop"></i> Front End Development</li>
+                         </ul>
                          <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                             Weila Buy is a dynamic web application that designed for providing users with real-time infomation of selected Best Buy products and store. To be more specific, the web app is built with one of the most popular client side MVC frameworks -- Angular JS while all the data and infomation of the site is dynamically retrieved by utilizing Best Buy API services. In this project, I gained valuable hand-on experience of building rich web application via JavaScript framework and had a deep understanding with respect to the practical use of MVC frameworks.
                          </p>
                     </div>
 
@@ -56,7 +61,7 @@
                     
                     <div class="col-md-12">
 
-                         <h3>Project Description</h3>                       
+                         <h3>Web App Details</h3>                       
                          <div class="portfolio-img">
                             <img src="img/weilabuy/wb2.jpg" class="img-responsive">
                          </div>
@@ -66,7 +71,7 @@
                     <div class="wrapper">
                         <div class="col-md-8">  
                           <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                             The Home Page of Weila Buy is designed for providing the real-time information of the Top 10 most viewed or trending products at Best Buy. If the users have great interest in a particular product, the product details page could allow them to view  more specific information, including rating, comments as well as the recommendation products. Apart from that, the search engine enables the users to look for the real-time store information in their neighborhood. Finally, the website is built within one of the most popular mobile-first framework -- ZURB Foundation, which will be fully responsive on multiple viewports and devices, highly improving user experience. 
                           </p>
                         </div>
 
@@ -75,11 +80,12 @@
                                 <h3 class="hidden-md hidden-lg">Tools</h3>
                                 <ul class="tag">
                                     <li><a>HTML</a></li>
-                                    <li><a>Balsamiq</a></li>
-                                    <li><a>Photoshop</a></li>
-                                    <li><a>Sass</a></li>
                                     <li><a>CSS</a></li>
-                                    <li><a>JavaScript (jQuery)</a></li> 
+                                    <li><a>AngularJS</a></li>
+                                    <li><a>Photoshop</a></li>
+                                    <li><a>Foundation 5</a></li>
+                                    <li><a>JavaScript</a></li>
+                                    <li><a>Icon Font</a></li> 
                                 </ul>
                             </div>
 

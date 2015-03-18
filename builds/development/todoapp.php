@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                       <div class="port delay-01s animated fadeInDown wow animated">
-                        <h1>Todo Web Applicatoin</h1>
+                        <h1>Just TODO It</h1>
                         <p>A Simple TODO Web App Using Local Storage</p> 
                       </div>  
                     </div>
@@ -38,10 +38,15 @@
                 <div class="row" id="project-desc">
 
                     <div class="col-md-4">
-                         <h3>Project Description</h3>
+                         <h3>Project Overview</h3>
+                         <ul class="overview">
+                            <li><i class="fa fa-calendar"></i> November 2014</li>
+                            <li><i class="fa fa-user"></i> Individual Project</li>
+                            <li><i class="fa fa-desktop"></i> Front End Development</li>
+                         </ul>
                          <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                         </p>
+                             Just TODO It is an simple Todo Web Appliaction that I initially created to manage my personal schedule in daily life. In this small fun projects, I gained valuable experience by trying out some new Front-End techniques. While styling the project, I applied a custom checkbox style, which made the web app look more appealing. Most importantly, I implemented some HTML 5 new features, including local storage and drag and drop, to enhance the interactivity of the web application, making the Todo app even more powerful.
+                         </p> 
                     </div>
 
                     <div class="col-md-8">                       
@@ -55,7 +60,7 @@
                 <div class="row" id="project-section">
 
                     <div class="col-md-8">
-                         <h3 class="hidden-md hidden-lg">Project Description</h3>                        
+                         <h3 class="hidden-md hidden-lg">Web App Details</h3>                        
                          <div class="portfolio-img">
                             <img src="img/todoapp/todoapp2.jpg" class="img-responsive">
                          </div>
@@ -63,20 +68,21 @@
                     </div>
 
                     <div class="col-md-4">
-                         <h3 class="hidden-xs hidden-sm">Project Description</h3>
+                         <h3 class="hidden-xs hidden-sm">Web App Details</h3>
                          <p>
-                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                             Just TODO It is a simple web application that allows users to manage their personal life. In this app, users can add a new todo task, edit the task as well as delete the task. Besides, with the checkbox options, users can easily and quickly mange their checklist. Also, the drag-and-drop interface enables users for quick and easy sorting. Last but not least, the data of the web app could be saved with the local storage provided.
                          </p>
 
                          <div class="tags">
                             <h3>Tools</h3>
                             <ul class="tag">
                                 <li><a>HTML</a></li>
-                                <li><a>Balsamiq</a></li>
-                                <li><a>Photoshop</a></li>
-                                <li><a>Sass</a></li>
                                 <li><a>CSS</a></li>
+                                <li><a>Local Storage</a></li>
+                                <li><a>Icon Font</a></li> 
+                                <li><a>jQuery Plugins</a></li>
                                 <li><a>JavaScript (jQuery)</a></li>
+                                <li><a>Photoshop</a></li> 
                             </ul>
                          </div>
 
