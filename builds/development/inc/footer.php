@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 copyright">
-                        <p>&copy; Copyright 2015. <span id="copyright">Owen Xu</span> All rights reserved.</p>
+                        <p>&copy; Copyright 2016. <span id="copyright">Jun Xu</span> All rights reserved.</p>
                     </div>
                     <div class="col-md-6 col-sm-6 footer-nav">
                         <ul class="list-inline">

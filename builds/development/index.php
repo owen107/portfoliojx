@@ -10,11 +10,11 @@
             <div class="parallax-overlay"></div> 
             <div class="home-content text-center">
                 <div class="container">
-                    <h1 class="slide-logo">Hello there, I am Owen!</h1>
+                    <h1 class="slide-logo">Hello there, I am Jun!</h1>
                     <div class="main-flex-slider">
                         <ul class="slides">
                             <li>
-                                <h1>I am a Front-End Developer</h1>
+                                <h1>I am a Front-End Engineer</h1>
 
                             </li>
                             <li>
@@ -49,11 +49,11 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="about-more-info wow animated fadeInUp" data-wow-delay="0.3s">
                                     <p>
-                                        Hello, my name is Owen Xu, I'm a Front-End Web Developer currently living in Ann Arbor, Michigan. Also, I am a master student at the University of Michigan where I studies Information Analysis and Retrieval.</br></br>
+                                        Hello, my name is Jun Xu, I'm a Front-End Engineer currently working in San Francisco, CA. Before coming to SF, I gained my master's degree from the University of Michigan where I studied Information Analysis and Retrieval.</br></br>
 
-                                        Speaking of my passions, I am a huge fan of sports. In my spare time, I love running, playing soccer and pingpong with my friends. </br></br>
+                                        Speaking of my passions, I am a huge fan of sports. When I am not coding, you can found me running, playing soccer and pingpong with my friends. </br></br>
 
-                                        When I am not out for sports, I usually spend most of time on the Internet and honing my web design and development skills by doing some real world projects. As a front-end web developer, I have a strong passion for working with HTML, CSS and Javascript so as to create clean and elegant user interfaces. Also, I love building stuff, particularly website and web application and oftetimes excited to learn any new cutting edge web technologies. Beyond that, I enjoy utilizing back-end web development technologies, such as PHP and Python as well, which enable me to build rich and robust web applications from the front-end to the back-end. </br></br>
+                                        When I am not out for sports, I usually spend most of time on the Internet and honing my web design and development skills by doing some real world projects. As a Front-End enginneer, I have a strong passion for working with HTML, CSS and JavaScript and am dedicated to building clean, simple and elegant user interfaces for any product. Also, I love building stuff, particularly website and web application and oftetimes excited to learn any new cutting edge web technologies. Beyond that, I enjoy utilizing back-end web development technologies as well, such as NodeJS and PHP, which enable me to build rich and robust web applications from the front-end to the back-end. </br></br>
 
                                         Feel free to <a id="email" href="mailto:owenxu107@gmail.com">drop me a line</a> if you would like to say hello.
                                     </p>
@@ -77,17 +77,17 @@
                                     <div class="col-sm-6 text-center">
                                         <div class="progress-circle">
 
-                                            <div class="chart" data-percent="90" data-scale-color="#47abed">
+                                            <div class="chart" data-percent="95" data-scale-color="#47abed">
                                                 <span>90%</span>
                                                 <canvas height="120" width="120"></canvas>
                                             </div>
-                                            <p class="progress-text">HTML5 / CSS3</p>
+                                            <p class="progress-text">HTML5 / CSS3 / Sass</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 text-center">
                                         <div class="progress-circle">
 
-                                            <div class="chart" data-percent="80" data-scale-color="#47abed">
+                                            <div class="chart" data-percent="90" data-scale-color="#47abed">
                                                 <span>80%</span>
                                                 <canvas height="120" width="120"></canvas>
                                             </div>
@@ -97,11 +97,11 @@
                                     <div class="col-sm-6 text-center">
                                         <div class="progress-circle">
 
-                                            <div class="chart" data-percent="75" data-scale-color="#47abed">
+                                            <div class="chart" data-percent="80" data-scale-color="#47abed">
                                                 <span>75%</span>
                                                 <canvas height="120" width="120"></canvas>
                                             </div>
-                                            <p class="progress-text">Sass</p>
+                                            <p class="progress-text">Angular / React</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 text-center">
@@ -111,7 +111,7 @@
                                                 <span>70%</span>
                                                 <canvas height="120" width="120"></canvas>
                                             </div>
-                                            <p class="progress-text">PHP / MySQL</p>
+                                            <p class="progress-text">Node(ExpressJS) / PostgreSQL</p>
                                         </div>
                                     </div>
                                 </div>
